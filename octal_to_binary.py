@@ -1,0 +1,14 @@
+oc=int(input())
+dec=0
+bi=0
+i=0
+while(oc!=0):
+    dec=dec+(oc%10)*pow(8,i)
+    i+=1
+    oc=oc//10
+i=1
+while(dec!=0):
+    bi=bi+(dec%2)*i
+    dec=dec//2
+    i=i*10
+print(bi)
