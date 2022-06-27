@@ -1,10 +1,10 @@
-n=int(input( ))
+n=int(input())
 sum=0
 r1=0
 r2=0
 sq1=n*n
 while(n>0):
-    r1=r1*10
+    r1*=10
     r1=r1+n%10
     n=n//10
 sq2=r1*r1
