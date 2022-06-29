@@ -1,7 +1,7 @@
-str=input()
+s=input()
 flag=0
-for c in str:
-    if(str.count(c)>1):
+for c in s:
+    if(s.count(c)>1):
         flag=1
         break
 if(flag==0):
