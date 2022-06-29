@@ -1,8 +1,8 @@
-str=input()
-alphabet="abcdefghijklmnopqrstuvwxyz"
+s=input()
+alpha="abcdefijklmnopqrstuvwxyz"
 flag=0
-for c in alphabet:
-    if c not in str.lower():
+for c in alpha:
+    if c not in s.lower():
         flag=1
         break
 if(flag==0):
