@@ -1,6 +1,6 @@
 str=input()
 wrd=1
 for i in str:
-    if(i==' '):
+    if i==' ':
         wrd+=1
-print(wrd)
+print(wrd)        
