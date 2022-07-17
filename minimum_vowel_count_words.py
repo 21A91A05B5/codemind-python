@@ -2,6 +2,6 @@ s=input()
 z=s.split()
 l=[]
 for i in z:
-    vowel=sum(letter in'aeiou' for letter in i.lower())
+    vowel=sum(letter in 'aeiou' for letter in i.lower())
     l.append(vowel)
 print(l.count(min(l)))
