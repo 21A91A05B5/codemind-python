@@ -1,4 +1,5 @@
-s=list(map(str,input().split( )))
-for i in range(len(s)):
-    s[i]=len(s[i])
-print(min(s))
+s=input()
+x=s.split()
+for i in x:
+    print(len(i))
+    break
