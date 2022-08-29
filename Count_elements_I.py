@@ -6,3 +6,4 @@ for i in sorted(set(a),key=a.index):
     if b.count(i)!=0:
         c+=1
 print(c)
+    
