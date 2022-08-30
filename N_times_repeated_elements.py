@@ -12,4 +12,3 @@ for i in s:
         print(i,end=' ')
 if(c==0):
     print("-1")
-        
