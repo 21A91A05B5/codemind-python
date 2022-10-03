@@ -1,12 +1,9 @@
 n=input()
-m=input()
-c=0
-for i in n:
-    for i in m:
-        if i in "aeiou":
-            c+=1
-if(c!=0):
-    print("True")
-    print(n.index(i))
+s=input()
+for i in range(len(n)):
+    if(n[i]==s):
+        print("True")
+        print(i)
+        break
 else:
     print("False")
