@@ -1,10 +1,6 @@
-s=input()
-s=set(list(s))
-b=''
-for i in s:
-    if(ord(i)>=65 and ord(i)<=90):
-        b=b+chr(ord(i)+32)
-    elif(i!=' '):
-        b+=i
-b=set(list(b))
-print(len(b))
+x = input()
+c=0
+for i in sorted(set(x)):
+    if i>='a' and i<='z':
+        c+=1
+print(c)
