@@ -1,4 +1,3 @@
-s=input()
-l=s.split(" ")
-for i in l[::-1]:
-    print(i[::-1],end=' ')
+n=list(map(str,input().split( )))
+for i in range(len(n)-1,-1,-1):
+    print(n[i][::-1],end=' ')
