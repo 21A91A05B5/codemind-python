@@ -1,3 +1,3 @@
-s=input()
-w=s.split( )
-print(" ".join(i[::-1] for i in w))
+s=map(str,input().split( ))
+for i in s:
+    print(i[::-1],end=' ')
