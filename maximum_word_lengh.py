@@ -1,4 +1,6 @@
 s=list(map(str,input().split( )))
+c=[]
 for i in range(len(s)):
-    s[i]=len(s[i])
-print(max(s))
+    x=len(s[i])
+    c.append(x)
+print(max(c))
