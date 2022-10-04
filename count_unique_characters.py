@@ -1,11 +1,7 @@
-s=input()
-s=s.lower()
-s=list(s)
-k=s.copy()
-k=set(k)
-k=list(k)
+x = input()
 c=0
-for i in range(len(k)):
-    if(s.count(k[i])==1 and k[i]!=" "):
-        c+=1
+for i in sorted(set(x)):
+    if i>='a' and i<='z':
+        if x.count(i)==1:
+            c+=1
 print(c)
