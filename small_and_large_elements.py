@@ -1,5 +1,4 @@
-s=list(map(str,input().split()))
-n=len(s)
+s=list(map(str,input().split( )))
+m=len(s)
 print(min(s[0]),end=" ")
-print(max(s[n-1]),end=" ")
-    
+print(max(s[m-1]),end=" ")
