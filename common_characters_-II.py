@@ -1,5 +1,5 @@
-x=input().lower()
-y=input().lower()
+x = input().lower()
+y = input().lower()
 l=[]
 c=0
 for i in x:
