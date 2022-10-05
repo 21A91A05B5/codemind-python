@@ -1,14 +1,14 @@
-a=input().lower()
-b=input().lower()
+x = input().lower()
+y = input().lower()
 l=[]
 c=0
-for i in a:
-    if i not in b:
+for i in x:
+    if i not in y:
         l.append(i)
-for i in b:
-    if i not in a:
+for i in y:
+    if i not in x:
         l.append(i)
 for j in sorted(set(l)):
-    if j!=" ":
+    if j!=' ':
         c+=1
 print(c)
